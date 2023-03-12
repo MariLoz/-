@@ -1,0 +1,3 @@
+﻿  ADSLab1t1.cpp
+C:\Users\111\Documents\GitHub\-\КПО\2 сем\ADSLab1t1\ADSLab1t1\ADSLab1t1.cpp(13,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  ADSLab1t1.vcxproj -> C:\Users\111\Documents\GitHub\-\КПО\2 сем\ADSLab1t1\x64\Debug\ADSLab1t1.exe
