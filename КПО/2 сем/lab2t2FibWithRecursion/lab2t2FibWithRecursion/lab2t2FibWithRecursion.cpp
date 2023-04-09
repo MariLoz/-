@@ -1,30 +1,37 @@
 ﻿#include <iostream>
+#include <stdio.h> 
+#include <time.h> 
 
 using namespace std;
 
-int Fib(int n)
+long long int Fib(int n)
 {
-    int Fn;
-    switch (n)
-    {
-    case 0: 
-        Fn = 0;
-        break;
-    case 1:
-        Fn = 1;
-        break;
-    default:
-        Fn = Fib(n - 1) + Fib(n - 2);
-        break;
-    }
+    long long int Fn;
+    if (n < 3)
+        return 1;
+    Fn = Fib(n - 1) + Fib(n - 2);
     return Fn;
+}
+
+int TimeFib(int n)
+{
+    float seconds;
+    long long int Fn;
+    clock_t start = clock();
+    Fn = Fib(n);
+    cout << Fn << endl;
+    clock_t end = clock();
+    seconds = ((float)(end - start) / CLOCKS_PER_SEC) * 1000;
+    return seconds;
 }
 
 int main()
 {
-    int n, Fn;
+    setlocale(LC_ALL, "Rus");
+    int n;
+    cout << "Введите n = ";
     cin >> n;
-    Fn = Fib(n);
-    cout << Fn;
+    float seconds = TimeFib(n);
+    cout << "Время выполнения: " << seconds << " мс";
 }
 

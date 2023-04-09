@@ -1,3 +1,3 @@
 ﻿  KPO2-1.cpp
-C:\Users\111\Documents\GitHub\-\KPO2-1\KPO2-1\KPO2-1.cpp(5,22): warning C4101: Fk: неиспользованная локальная переменная
+C:\Users\111\Documents\GitHub\-\KPO2-1\KPO2-1\KPO2-1.cpp(10,27): warning C4101: Fk: неиспользованная локальная переменная
   KPO2-1.vcxproj -> C:\Users\111\Documents\GitHub\-\KPO2-1\x64\Debug\KPO2-1.exe

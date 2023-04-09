@@ -1,2 +1,4 @@
 ﻿  lab2t2FibWithRecursion.cpp
+C:\Users\111\Documents\GitHub\-\КПО\2 сем\lab2t2FibWithRecursion\lab2t2FibWithRecursion\lab2t2FibWithRecursion.cpp(25,12): warning C4244: return: преобразование "float" в "int", возможна потеря данных
+C:\Users\111\Documents\GitHub\-\КПО\2 сем\lab2t2FibWithRecursion\lab2t2FibWithRecursion\lab2t2FibWithRecursion.cpp(34,19): warning C4244: инициализация: преобразование "int" в "float", возможна потеря данных
   lab2t2FibWithRecursion.vcxproj -> C:\Users\111\Documents\GitHub\-\КПО\2 сем\lab2t2FibWithRecursion\x64\Debug\lab2t2FibWithRecursion.exe
